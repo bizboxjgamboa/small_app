@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Flutter: Launch",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Flutter: Attach",
+      "request": "attach",
+      "type": "dart",
+      "deviceId": "${command:flutter.selectDevice}",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
