@@ -1,7 +1,9 @@
+import 'package:flutter_driver/driver_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:small_app/second_page.dart';
 
 void main() {
+  enableFlutterDriverExtension();
   runApp(const MyApp());
 }
 
